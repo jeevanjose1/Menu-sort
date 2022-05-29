@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #222831;
+}
+
+.mainmenu {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222831;
+  padding: 5rem;
+}
+
+.mainmenu .main {
+  margin: 0rem 5rem;
+}
+
+.mainmenu .main .heading {
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainmenu .main .heading .head {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 6px;
+  color: #eeeeee;
+}
+
+.mainmenu .main .heading .btn {
+  padding: 2rem 0rem;
+}
+
+.mainmenu .main .heading .btn .bt {
+  padding: 0.5rem 1rem;
+  background: none;
+  outline: none;
+  border: #eeeeee solid 1px;
+  color: #eeeeee;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.mainmenu .main .heading .btn .bt:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.mainmenu .main .heading .btn .bt:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+
+.mainmenu .main .menudiv {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+  .mainmenu .main .menudiv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.mainmenu .main .menudiv .menu {
+  max-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .mainmenu .main .menudiv .menu {
+    max-width: 100%;
+  }
+}
+
+.mainmenu .main .menudiv .menu .menuimg {
+  max-width: 15vw;
+  min-width: 10vw;
+  margin-right: 2rem;
+  outline: #eeeeee solid 1px;
+  outline-offset: 5px;
+}
+
+.mainmenu .main .menudiv .menu .detials .detialshead {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #eeeeee;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: #eeeeee solid 1px;
+  margin-bottom: 1rem;
+}
+
+.mainmenu .main .menudiv .menu .detials .descs {
+  color: #eeeeee;
+  font-size: 0.8rem;
+  letter-spacing: 1.3px;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=main.css.map */
